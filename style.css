@@ -1,27 +1,33 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-div {
-  margin: 20px;
-}
+  div {
+    margin: 20px;
+  }
 
-input[type="radio"] {
-  margin-left: 30px;
-}
+  .color-circle {
+    font-size: 26px;
+    
+  }
 
-#clearButton {
-  position: absolute;
-  right: 30px; 
-}
+  input[type="radio"] {
+    margin-left: 30px;
+  }
 
-#drawingArea {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  background-color: rgb(226, 226, 226);
-  overflow: hidden;
-}
+  #clearButton {
+    position: absolute;
+    right: 30px; 
+    top: 25px;
+  }
+
+  #drawingArea {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(226, 226, 226);
+    overflow: hidden;
+  }
