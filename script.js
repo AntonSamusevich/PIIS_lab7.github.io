@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     svg.appendChild(shapeElement);
   }
 
+  //функция для рисования треугольника
   function drawTriangle(x1, y1, x2, y2, x3, y3) {
     shapeElement = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
     shapeElement.setAttribute("points", `${x1},${y1} ${x2},${y2} ${x3},${y3}`);
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // Обработчик события кнопки "Очистить"
+  //обработчик события кнопки "Очистить"
   const clearButton = document.getElementById('clearButton');
   clearButton.addEventListener('click', function() {
     svg.innerHTML = ''; 
